@@ -51,10 +51,10 @@ public class score : MonoBehaviour
     void UpdateUI()
     {
         if (targetText != null)
-            targetText.text = $" Target: {targetName}";
+            targetText.text = $" 목표: {targetName}";
         if (scoreText != null)
-            scoreText.text = $" Score: {targetHit}";
+            scoreText.text = $" 성공!: {targetHit}";
         if (badScoreText != null)
-            badScoreText.text = $" Bad Score: {otherHit}";
+            badScoreText.text = $" 아쉬워요...: {otherHit}";
     }
 }
